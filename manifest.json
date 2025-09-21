@@ -1,0 +1,41 @@
+{
+  "id": "org.animeonline.ninja",
+  "version": "1.0.0",
+  "name": "AnimeOnline Ninja",
+  "description": "Addon de Stremio para ver anime en castellano y en emisión desde animeonline.ninja",
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "animeonline_castellano",
+      "name": "Anime Castellano",
+      "genres": ["Anime"],
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ],
+      "posterShape": "poster"
+    },
+    {
+      "type": "series",
+      "id": "animeonline_emision",
+      "name": "Anime en Emisión",
+      "genres": ["Anime"],
+      "extra": [
+        { "name": "search", "isRequired": false },
+        { "name": "skip", "isRequired": false }
+      ],
+      "posterShape": "poster"
+    }
+  ],
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "series"
+  ],
+  "idPrefixes": [
+    "animeonline_"
+  ]
+}
