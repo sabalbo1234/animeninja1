@@ -2,7 +2,7 @@
   "name": "stremio-animeonline-addon-updated",
   "version": "1.0.0",
   "description": "Stremio addon - AnimeOnline Ninja (updated catalog all pages)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
